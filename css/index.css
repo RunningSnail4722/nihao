@@ -1,0 +1,109 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+	background: #f0f0f0;
+}
+.header{
+	width: 100%;
+	height: 46px;
+	line-height: 46px;
+	background: #29bde0;
+}
+.header .img{
+	margin-left: 14px;
+}
+.header .img img{
+	height: 16px;
+	cursor:pointer;
+}
+.contentTop{
+	width: 90%;
+	height: 60px;
+	line-height: 60px;
+	background: #ffffff;
+	margin: 16px auto;
+	text-align: center;
+	font-size: 18px;
+	color: #9a9a9a;
+	border: 1px solid #c9c9c9;
+}
+.contentTop .xy{
+	float: right;
+	line-height: 70px;
+	padding-right: 10px;
+}
+
+.contentTop .xy img{
+	height: 22px;
+	cursor: pointer;
+}
+.contentBottom{
+	position: relative;
+	width: 90%;
+	height: 390px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	border: 1px solid #c9c9c9;
+}
+.title{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	color: #fbb435;
+	text-align: center;
+	font-size: 18px;
+	border-bottom: 1px solid #FBB435;
+}
+.sj{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 18px;
+	height: 50px;
+	margin: auto;
+}
+.list{
+	position: relative;
+}
+.sj img{
+	height: 24px;
+}
+.xx{
+	width: 80%;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	background: #69d1e9;
+	margin: 10px auto;
+	color: #FFFFFF;
+	cursor:pointer;
+}
+.yh{
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	color: #9a9a9a;
+	font-size: 12px;
+}
+.buttons{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.buttons span{
+	display:inline-block;
+	width: 10px;
+	height: 10px;
+	background: #F0F0F0;
+	border-radius: 50%;
+}
+.buttons .on{
+	background: #69d1e9;
+}

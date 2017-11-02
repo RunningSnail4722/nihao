@@ -1,0 +1,153 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+	background: #29bde0;
+}
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.top{
+	width: 90%;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	color:#ffffff;
+	margin: auto;
+	font-size: 18px;
+}
+.top .topLeft{
+	float: left;
+}
+.top .topRight{
+	float: right;
+}
+.top img{
+	height: 20px;
+	cursor:pointer;
+}
+.bottom{
+	width: 100%;
+	height: 40px;
+	background: #b9e9f5;
+}
+.text{
+	width: 80%;
+	height: 100%;
+	line-height: 40px;
+	margin: auto;
+	font-size: 14px;
+}
+.textRight img{
+	height: 16px;
+	cursor:pointer;
+}
+.text .textRight{
+	width: 30px;
+	height: 30px;
+	float: right;
+	line-height: 35px;
+    margin: 5px auto;
+	background: #fbb435;
+	border-radius: 50%;
+	text-align: center;
+}
+.text1{
+	width: 80%;
+	line-height: 24px;
+	margin: auto;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+.text1 img{
+	display: block;
+	margin: 0;
+	height: 8px;
+}
+.content{
+	position: absolute;
+    top: 124px;
+    bottom: 74px;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    margin: auto;
+}
+.l1{
+	width: 33.3%;
+	height: 100px;
+	float: left;
+	margin-bottom: 14px;
+}
+.list{
+	width: 100%;
+	text-align: center;
+}
+.listCenter:hover .listCenter1{
+	display: block;
+}
+.listCenter{
+	display:inline-block;
+	width: 64px;
+    height: 64px;
+	background: #f5c97b;
+	text-align: center;
+	border: 2px solid #FFFFFF;
+	cursor: pointer;
+}
+.listCenter1{
+	width: 67px;
+    margin-left: -2px;
+	display: none;
+}
+
+.listCenter1 span{
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	background: #FFFFFF;
+	cursor: pointer;
+}
+.listCenter1 img{
+	display: block;
+	width: 10px;
+    height: 9px;
+    margin: 2px auto;
+}
+.t1{
+	line-height: 48px;
+}
+.t2{
+	display: block;
+	font-size: 10px;
+	background: #83b09a;
+	color: #FFFFFF;
+}
+.footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.btn{
+	width: 70%;
+	height: 74px;
+	margin: auto;
+	line-height: 74px;
+}
+.btn button{
+	width: 100%;
+	height: 46px;
+	border: none;
+	background: #fbb435;
+	color: #FFFFFF;
+	font-size: 16px;
+	cursor: pointer;
+}
+
